@@ -2,6 +2,12 @@ package com.wy.entity;
 
 public class School {
     private String sname;
+    private int age;
+
+    public School(String sname, int age) {
+        this.sname = sname;
+        this.age = age;
+    }
 
     public String getSname() {
         return sname;
